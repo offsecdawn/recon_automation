@@ -1,0 +1,4 @@
+cat subdomains.txt | httprobe
+meg -d 1000 -v / [hosts(subdomain.txt) filename should exist in current folder]
+gf s3_buckets
+
